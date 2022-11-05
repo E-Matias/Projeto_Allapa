@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="../styles/global.css">
+	<link rel="stylesheet" href="../styles/conteudo.css">
+</head>
+<body>
+	<h1 id="imgInicial">Alto da Lapa</h1>
+    <header>
+        <nav id="navbar">
+            <ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="conteudo.html">INFO</a></li>
+				<li><a href="autor.html">AUTOR</a></li>
+				<li><a href="galeria.html">GALERIA</a></li>
+				<li><a href="prefeitura.html">PREFEITURA</a></li>
+				<li><a href="login - singup/singup.html">CADASTRE-SE</a></li>
+				<li><a href="login - singup/login.html">LOGIN</a></li>
+			</ul>
+        </nav>
+    </header>
+	<main>
+		<div id="container">
+			<div>
+				<img src="../img/bairro-da-lapa-sp.webp" alt="Imagem inicial lapa">
+			</div>
+			<div class="conteudo">
+				<h1>Alto da Lapa</h1>
+				<ol>
+					<li><a href="#HistoriaBairro">História do bairro</a></li>
+					<li><a href="#ComoMorarAltoLapa">Como morar no Alto da Lapa</a></li>
+					<li><a href="#VideoSobreBairro">Video sobre o bairro</a></li>
+					<li><a href="#MapaRegiao">Mapa da região</a></li>
+				</ol>
+			</div>
+		</div>
+		<article id="HistoriaBairro">
+			<h2>História do bairro</h2>
+			<p>O Alto da Lapa foi construido na década de 1920 pela companhia city, a compania foi fundada por uma união entre brasileiros, britânicos e franceses que queria investir na cidade de São Paulo, sendo resonsavel pela construção de grandes bairros, centros e prédios importantes de São Paulo.</p>
+		</article>
+
+		<article id="ComoMorarAltoLapa">
+			<h2>Como é morar no Alto da Lapa?</h2>
+			<img class="imgCont" src="../img/DistritoLapa-.jpg" alt="Distrito Lapa">
+			<p>O Alto da Lapa é um <strong>bairro majoritariamente residencial</strong>, apesar de ter também estabelecimentos comerciais. Parte significativa deste bairro é tombada, devido ao seu <strong>valor arquitetônico e histórico</strong>, uma vez que a região surgiu ainda na época do Brasil Colônia. É um ótimo lugar para se morar.</p>
+			<p>Este é um <strong>bairro muito bem localizado</strong>, estando <strong>próximo às marginais Pinheiros e Tietê</strong>. Além disso, possui fácil acesso tanto através de várias linhas de ônibus municipais e intermunicipais, como das <strong>linhas 7 e 8 da CPTM</strong>.</p>
+			<p>Morar no Alto da Lapa garante a oportunidade de viver em um dos <strong>bairros mais bonitos e arborizados da cidade de São Paulo</strong>. A cerca de 20 minutos do Alto da Lapa está o <strong>Parque Villa Lobos</strong>, ideal para contemplar ainda mais a natureza tão presente nos jardins, praças e árvores de calçada do bairro.</p>
+			<img class="imgCont" src="../img/parque-villa-lobos.jpg" alt="Parque Villa Lobos">
+			<p>Na hora de fazer compras, os moradores possuem a <a href="https://goo.gl/maps/DaRNMJ9zCLnTPrnG6" target="_blank">Rua Cerro Corá</a>, onde se concentram <strong>variados comércios, como padarias, farmácias, bancos, lojas de roupas e calçados</strong>, entre outros estabelecimentos. Ainda no quesito compras, o morador do Alto da Lapa pode usufruir do <a href="https://www.shoppingcenterlapa.com.br/" target="_blank">Shopping Center Lapa</a> e do <a href="https://www.shoppingvillalobos.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=villa-lobos_google_consideracao_trafego_site_perene-institucional_jun22&utm_content=villa-lobos_google_consideracao_trafego_site_perene-institucional_jun22_key_palavras-chave_gen%C3%A9rico&utm_term=villa-lobos_google_consideracao_trafego_site_perene-institucional_jun22_key_palavras-chave_gen%C3%A9rico_texto_search" target="_blank">Shopping Villa Lobos</a>. O bairro concentra algumas escolas particulares renomadas na cidade, como o colégio<a href="https://marcopolocolegio.com.br/" target="_blank">Marco Polo</a>, <a href="https://www.colegio-santaclara.com.br/" target="_blank">Santa Clara</a> e <a href="https://santoivo.com.br/" target="_blank">Santo Ivo</a>. Nas proximidades também há escolas públicas e universidades, como a USP.</p>
+			<p>Outro destaque interessante do bairro é que viver no Alto da Lapa também é muito bom do ponto de vista gastronômico, já que o bairro conta com excelentes restaurantes, como <a href="https://www.soggiorno.com.br/" target="_blank">Soggiorno</a> e <a href="https://www.brascatta.com.br/" target="_blank">Brascatta Pizzaria</a> que são referência entre os moradores.</p>
+			<p>Por se tratar de um bairro de <strong>alto padrão</strong>, o Alto da Lapa é <strong>muito seguro</strong>, contando com policiamento durante todo o dia, além de segurança privada, que geralmente é contratada pelos condomínios.</p>
+		</article>
+
+		<form action="newsletter">
+			<input id="newsletterInput" type="email" placeholder="Receba nossas newsletter">
+			<input type="button" id="CTB" onclick="changeText()" value="Inscreva-se">
+		</form>
+
+		<article id="VideoSobreBairro">
+			<h2>Video sobre o bairro</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/eA8y2ncB1NM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</article>
+
+		<article id="MapaRegiao">
+			<h2>Mapa da região</h2>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.139737119183!2d-46.718248!3d-23.5312459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8853021ce73%3A0x20ec9d0ec8dcbe56!2sAlto%20da%20Lapa%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1656538505630!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</article>
+
+		<div id="redeSoc" style="display: none;">
+			<h2>Minhas redes sociais</h2>
+			<img src="../img/marca-x.png" alt="" id="fecharRS" onclick="abrirRS()">
+			<ul>
+				<li>
+					<a href="https://github.com/E-Matias" target="_blank"><img src="../img/logos/github.png" alt=""></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/enzo_matias71/" target="_blank"><img src="../img/logos/instagram.png" alt="Instagram"></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/channel/UCQZuyKLlku5vlBlxx36GQcA" target="_blank"><img src="../img/logos/youtube.png" alt="Youtube"></a>
+				</li>
+				<li>
+					<a href="https://open.spotify.com/user/31mlxa4aqwb4vfmtbbyce7k6kbdi?si=4df39c6a866d4ee8" target="_blank"><img src="../img/logos/spotify.png" alt="TradingView"></a>
+				</li>
+				<li>
+					<a href="https://br.tradingview.com/u/Enzo-Matias/" target="_blank"><img src="../img/logos/tradingview.png" alt="TradingView"></a>
+				</li>
+			</ul>
+		</div>
+		<p class="obs">Este artigo foi escrito em 25/10/2022.</p>
+	</main>
+	<footer>
+        <div id="footerCont">
+            <div id="rsLinks">
+                <p>REDES SOCIAIS </p>
+                <hr>
+                <a href="https://github.com/E-Matias" target="_blank"><img src="" alt=""><img src="../img/logos/RedeSocBranco/github.png" alt="Github" title="Github"></a>
+                <a href="https://www.instagram.com/enzo_matias71/" target="_blank"><img src="../img/logos/RedeSocBranco/instagram.png" alt="Instagram" title="Instagram"></a>
+                <a href="https://www.youtube.com/channel/UCQZuyKLlku5vlBlxx36GQcA" target="_blank"><img src="../img/logos/RedeSocBranco/youtube.png" alt="Youtube" title="Youtube"></a>
+                <a href="https://open.spotify.com/user/31mlxa4aqwb4vfmtbbyce7k6kbdi?si=4df39c6a866d4ee8&nd=1" target="_blank"><img src="../img/logos/RedeSocBranco/spotify.png" alt="Spotify" title="Spotify"></a>
+                <a href="https://br.tradingview.com/u/Enzo-Matias/" target="_blank"><img src="../img/logos/RedeSocBranco/tradingview.png" alt="TradingView" title="TradingView"></a>
+            </div>
+            <div>
+                <p>PÁGINAS </p>
+                <hr>
+                <a href="index.html">Home</a>
+                <a href="autor.html">Sobre o autor</a>
+                <a href="login - singup/login.html">Faça login</a>
+                <a href="galeria.html">Galeria de fotos</a>
+				<a href="prefeitura.html">Prefeitura</a>
+            </div>
+            <div>
+                <p>CONSULTA </p>
+                <hr>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN</a>
+                <a href="https://www.w3schools.com/" target="_blank">W3School</a>
+                <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a>
+                <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">Wikipedia</a>
+                <a href="https://www.quintoandar.com.br/regioes-atendidas/alto-da-lapa-sao-paulo-sp-brasil-54pxwtn9de" target="_blank">Quinto Andar</a>
+            </div>
+            <div id="agradecimentos">
+                <p>AGRADECIMENTOS </p>
+                <hr>
+                <ul>
+                    <li>Marcelo Modolo</li>
+                    <li>Carlos Giroto</li>
+                    <li>Nicolas Pietro</li>
+                    <li>Luisa Pedro</li>
+                    <li>Enzo Neves</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../js/newsletter.js"></script>
+</html>

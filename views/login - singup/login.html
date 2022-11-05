@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../../styles/login.css">
+</head>
+<body>
+    <div id="container">
+        <div id="imgL">
+            <img src="../../img/SãoPaulo.jpg" alt="">
+        </div>
+        <div id="loginCart">
+            <h1>Log in to Allapedia</h1>
+            <form>
+                <div id="containerEmail">
+                    <label for="emailf">Email</label>
+                    <input type="email" name="emailf" id="emailf" title="Preencha este campo." required placeholder="Ex: adm@gmail.com">
+                </div>
+
+                <div id="containerPassword">
+                    <label for="passwordf">Senha</label>
+                    <input type="password" name="passwordf" autocomplete="off" id="passwordf" title="Preencha este campo." required minlength="8" maxlength="20" placeholder="Ex: senha123">
+                </div>
+
+                <div id="esquecidos">
+                    <a href="">Esqueceu sua senha?</a>
+                    <a href="">Esqueceu seu email?</a>
+                </div>
+                <input type="submit" name="button" id="button" onclick="login(); return false">
+                
+                <p>Ainda não tem conta? <a href="singup.html">Crie uma conta</a></p>
+                <p><a href="../index.html">Voltar ao inicio</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="../../js/login.js"></script>
+</body>
+</html>

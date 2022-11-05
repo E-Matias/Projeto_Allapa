@@ -1,0 +1,43 @@
+:root {
+	--azul: #1E28D9;
+	--mostarda: #c0af5c;
+	--azulE: #262840;
+	--dourado: #A68A56;
+	--branco: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+h2 {
+	text-align: justify;
+	margin: 20px 0px;
+	color: var(--dourado);
+	text-decoration: none;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+}
+
+#container > .conteudo {
+    width: 350px;
+    padding: 30px 30px;
+}
+
+.conteudo > h1 {
+    text-align: justify;
+}
+
+#container img {
+	width: 325px;
+}

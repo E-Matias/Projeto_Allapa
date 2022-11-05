@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+
+:root {
+	--azul: #1E28D9;
+	--mostarda: #a79950;
+	--azulE: #262840;
+	--dourado: #B29341;
+	--branco: #F2F2F2;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-align: justify;
+}
+
+#imgInicial{
+    background-image: url(../img/parque-villa-lobos.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: var(--branco);
+	background-size: cover;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	color: var(--dourado);
+	text-underline-offset: 2px;
+}
+
+main h2, h3 {
+	color: var(--dourado);
+	text-align: justify;
+	text-indent: 75px;
+}
+
+main p {
+	text-indent: 70px;
+	text-align: justify;
+	margin: 10px;
+}
+
+#tituloP {
+	color: var(--branco);
+	font-size: 50px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	overflow: auto;
+}
+
+header {
+	position: sticky;
+    top: 0px;
+	z-index: 1;
+}
+
+header nav {
+	color: var(--dourado);
+	background-color: var(--azulE);
+	list-style: none;
+	background-color: var(--azulE);
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+	color: var(--dourado);
+}
+
+header nav ul {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+header nav ul li a {
+	display: inline-block;
+	padding: 20px;
+	color: var(--mostarda);
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header nav ul li a:hover {
+	background-color: var(--mostarda);
+	color: var(--branco);
+	transition: .5s;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header nav ul li:nth-last-child(1) a {
+	float: right;
+	background-color: var(--mostarda);
+	border: 1px var(--mostarda) solid;
+	color: var(--branco);
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header nav ul li:nth-last-child(2) a {
+	float: right;
+	border: 1px var(--mostarda) solid;
+	color: var(--branco);
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header nav ul li:nth-last-child(1) a:hover, header nav ul li:nth-last-child(2) a:hover {
+	background-color: var(--dourado);
+	border: 1px var(--dourado) solid;
+	transition: .5s;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main p {
+	text-indent: 70px;
+	text-align: justify;
+	margin: 10px;
+}
+
+.obs {
+	text-indent: 0px;
+	font-weight: bolder;
+	text-align: center;
+	margin: 30px auto;
+	font-size: 15px;
+}
+
+footer {
+    height: auto;
+	background-color: var(--azulE);
+}
+
+#footerCont {
+    display: flex;
+    justify-content: center;
+}
+
+#footerCont div {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px;
+    color: var(--mostarda);
+	text-align: justify;
+}
+
+#footerCont div p {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#footerCont div a {
+    color: var(--branco);
+    text-decoration: none;
+	padding: 10px 0px;
+}
+
+#footerCont div a img {
+	width: 24px;
+}
+
+#footerCont div a:hover {
+	text-decoration: underline;
+	/*https://www.w3.org/TR/css-text-decor-4/#underline-offset uso do text-underline-offset*/
+	text-underline-offset: 5px;
+}
+
+#rsLinks img {
+	display: block;
+	margin: 0 auto;	
+}
+
+#agradecimentos {
+	position: relative;
+	top: -5px;
+	background-color: var(--mostarda);
+	border-radius: 5px;
+	padding: 10px 10px;
+}
+
+#agradecimentos > p {
+	color: var(--branco);
+}
+
+#agradecimentos> ul > li {
+	margin: 15px auto;
+	color: var(--branco);
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+#agradecimentos hr {
+	width: 100%;
+}
