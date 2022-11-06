@@ -17,14 +17,4 @@ function login() {
     } else {
         msgErro.style.display = 'block'
         console.log('O email ou a senha estão incorretos')
-}
-        /*if(login.value == 'adm@gmail.com' && senha.value == 'senha123') {
-                location.href = "../../index.html"
-        } else if (login.value == 'adm@gmail.com' && senha.value != 'senha123') {
-                alert('Senha inválida, tente novamente!')
-        } else if (login.value != 'adm@gmail.com' && senha.value == 'senha123') {
-                alert('Email inválido, tente novamente!')
-        } else {
-                alert('Email e senha inválidos, tente novamente!')
-        }*/
-}
+}}
