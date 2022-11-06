@@ -19,6 +19,13 @@ img {
 	border-radius: 5px;
 }
 
+hr {
+	background-color: var(--branco);
+	border: 0px;
+	border-top: 1px var(--branco) solid;
+	background-color: var(--branco);
+}
+
 h1, h2, h3 {
 	font-weight: bold;
 	text-align: justify;
@@ -65,7 +72,7 @@ body {
 
 header {
 	position: sticky;
-    top: 0px;
+    top: -1px;
 	z-index: 1;
 }
 
@@ -94,7 +101,7 @@ header nav ul li {
 
 header nav ul li a {
 	display: inline-block;
-	padding: 20px;
+	padding: 20px 15px;
 	color: var(--mostarda);
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
@@ -131,8 +138,8 @@ header nav ul li:nth-last-child(2) a {
 }
 
 header nav ul li:nth-last-child(1) a:hover, header nav ul li:nth-last-child(2) a:hover {
-	background-color: var(--dourado);
-	border: 1px var(--dourado) solid;
+	background-color: var(--mostarda);
+	border: 1px var(--mostarda) solid;
 	transition: .5s;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -215,5 +222,8 @@ footer {
 }
 
 #agradecimentos hr {
-	width: 100%;
+	background-color: var(--branco);
+	border: 0px;
+	border-top: 2px var(--branco) solid;
+	background-color: var(--branco);
 }

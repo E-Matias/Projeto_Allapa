@@ -1,8 +1,8 @@
 :root {
 	--azul: #1E28D9;
-	--mostarda: #c0af5c;
+	--mostarda: #a79950;
 	--azulE: #262840;
-	--dourado: #A68A56;
+	--dourado: #B29341;
 	--branco: #F2F2F2;
 }
 
@@ -13,7 +13,7 @@
 
 main {
     max-width: 700px;
-    margin: 40px auto;
+    margin: 35px auto;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 
 #container > .conteudo {
     width: 350px;
-    padding: 30px 30px;
+    padding: 60px 30px;
 }
 
 .conteudo > h1 {

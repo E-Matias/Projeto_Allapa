@@ -2,9 +2,9 @@
 
 :root {
 	--azul: #1E28D9;
-	--mostarda: #c0af5c;
+	--mostarda: #a79950;
 	--azulE: #262840;
-	--dourado: #766441;
+	--dourado: #B29341;
 	--branco: #F2F2F2;
 }
 
@@ -64,19 +64,18 @@ input {
     margin: 10px 0px;
     padding: 8px;
     border: 2px var(--mostarda) solid;
-    box-shadow: none;
-    color: var(--mostarda);
+    color: black;
     border-radius: 3px;
 }
 
 input:hover {
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+    box-shadow: 1px 1px 7px #b2944170;
     transition: .3s;
 }
 
-input:enabled {
+input:focus-within {
+    color: var(--mostarda);
     border: 2px var(--mostarda) solid;
-    box-shadow: 1px 1px 3px var(--azulE);   
 }
 
 a {
