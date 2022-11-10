@@ -1,5 +1,5 @@
 emailBD = ['enzo.matias@germinare.org.br', 'bernardo.garces@germinare.org.br', 'ana.ornelas@germinare.org.br', 'lucas.baciega@germinare.org.br']
-passwordBD = ['bot$786', '!pinguim', 'Organe!as', '18-10-2004']
+passwordBD = ['enzo0110', '!pinguim', 'Organe!as', '18-10-2004']
 
 let msgErro = document.querySelector('#msgErro')
 
